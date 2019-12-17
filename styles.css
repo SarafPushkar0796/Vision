@@ -10,7 +10,7 @@ html{
 
 p{color: #fff;text-align: center;}
 a{color: #fff;text-decoration: underline; }
-footer{margin-top: 10%;}
+footer{margin-top: 10%;z-index: 999;}
 
 #vision{
 	display: block;
@@ -95,5 +95,5 @@ footer{margin-top: 10%;}
 		top: 60%;
 		right: -5%;
 	}
-	footer{margin-top: 70%;}
+	footer{margin-top: 70%;z-index: 999;}
 }
