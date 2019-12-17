@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="249.476" height="119.417" viewBox="0 0 249.476 119.417">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.866" y1="0.009" x2="0.371" y2="0.876" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff6859"/>
+      <stop offset="1" stop-color="#ffcf44"/>
+    </linearGradient>
+    <filter id="Polygon_4" x="0" y="38.497" width="34.738" height="35.574" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_10" x="130.059" y="0" width="119.417" height="119.417" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <radialGradient id="radial-gradient" cx="0.2" cy="0.725" r="0.796" gradientTransform="matrix(0.858, -0.513, 0.513, 0.858, -0.344, 0.205)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1eb980"/>
+      <stop offset="1" stop-color="#045d56"/>
+    </radialGradient>
+    <filter id="Ellipse_11" x="175.059" y="45" width="29.417" height="29.417" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_19" data-name="Group 19" transform="translate(-790.67 -459.807)">
+    <text id="_ISI_N" data-name=" ISI N" transform="translate(800.047 522.099)" fill="#fff" font-size="18" font-family="WorkSans-Regular, Work Sans" letter-spacing="2em"><tspan x="0" y="0" xml:space="preserve"> ISI N</tspan></text>
+    <g transform="matrix(1, 0, 0, 1, 790.67, 459.81)" filter="url(#Polygon_4)">
+      <path id="Polygon_4-2" data-name="Polygon 4" d="M6.85,0,13.7,11.417H0Z" transform="translate(18.89 44.5) rotate(60)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Group_18" data-name="Group 18" transform="translate(974.729 510.807)">
+      <g transform="matrix(1, 0, 0, 1, -184.06, -51)" filter="url(#Ellipse_10)">
+        <circle id="Ellipse_10-2" data-name="Ellipse 10" cx="5.709" cy="5.709" r="5.709" transform="translate(184.06 51)" fill="#1eb980"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -184.06, -51)" filter="url(#Ellipse_11)">
+        <circle id="Ellipse_11-2" data-name="Ellipse 11" cx="5.709" cy="5.709" r="5.709" transform="translate(184.06 51)" fill="url(#radial-gradient)"/>
+      </g>
+    </g>
+  </g>
+</svg>
